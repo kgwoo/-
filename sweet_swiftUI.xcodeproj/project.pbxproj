@@ -16,6 +16,7 @@
 		5707042B28BBAAEF0007314B /* sweet_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5707042A28BBAAEF0007314B /* sweet_swiftUITests.swift */; };
 		5707043528BBAAEF0007314B /* sweet_swiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5707043428BBAAEF0007314B /* sweet_swiftUIUITests.swift */; };
 		5707043728BBAAEF0007314B /* sweet_swiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5707043628BBAAEF0007314B /* sweet_swiftUIUITestsLaunchTests.swift */; };
+		5707044528BBACBA0007314B /* ReadMe.md in Resources */ = {isa = PBXBuildFile; fileRef = 5707044428BBACBA0007314B /* ReadMe.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		5707043028BBAAEF0007314B /* sweet_swiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sweet_swiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5707043428BBAAEF0007314B /* sweet_swiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sweet_swiftUIUITests.swift; sourceTree = "<group>"; };
 		5707043628BBAAEF0007314B /* sweet_swiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sweet_swiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5707044428BBACBA0007314B /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		5707041328BBAAEC0007314B /* sweet_swiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				5707044328BBAC770007314B /* hello_swiftUI */,
 				5707041428BBAAEC0007314B /* sweet_swiftUIApp.swift */,
 				5707041628BBAAEC0007314B /* ContentView.swift */,
 				5707041828BBAAEE0007314B /* Assets.xcassets */,
@@ -131,6 +134,14 @@
 				5707043628BBAAEF0007314B /* sweet_swiftUIUITestsLaunchTests.swift */,
 			);
 			path = sweet_swiftUIUITests;
+			sourceTree = "<group>";
+		};
+		5707044328BBAC770007314B /* hello_swiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				5707044428BBACBA0007314B /* ReadMe.md */,
+			);
+			path = hello_swiftUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +250,7 @@
 			files = (
 				5707041C28BBAAEE0007314B /* Preview Assets.xcassets in Resources */,
 				5707041928BBAAEE0007314B /* Assets.xcassets in Resources */,
+				5707044528BBACBA0007314B /* ReadMe.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
