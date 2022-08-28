@@ -13,7 +13,7 @@ struct sweet_swiftUIApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ImageComponent()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

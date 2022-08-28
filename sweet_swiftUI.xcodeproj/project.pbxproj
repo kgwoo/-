@@ -17,6 +17,7 @@
 		5707043528BBAAEF0007314B /* sweet_swiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5707043428BBAAEF0007314B /* sweet_swiftUIUITests.swift */; };
 		5707043728BBAAEF0007314B /* sweet_swiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5707043628BBAAEF0007314B /* sweet_swiftUIUITestsLaunchTests.swift */; };
 		5707044528BBACBA0007314B /* ReadMe.md in Resources */ = {isa = PBXBuildFile; fileRef = 5707044428BBACBA0007314B /* ReadMe.md */; };
+		5707044928BBB1680007314B /* ImageComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5707044828BBB1680007314B /* ImageComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		5707043428BBAAEF0007314B /* sweet_swiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sweet_swiftUIUITests.swift; sourceTree = "<group>"; };
 		5707043628BBAAEF0007314B /* sweet_swiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sweet_swiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5707044428BBACBA0007314B /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
+		5707044828BBB1680007314B /* ImageComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		5707041328BBAAEC0007314B /* sweet_swiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				5707044628BBB0AA0007314B /* components_of_ths_view */,
 				5707044328BBAC770007314B /* hello_swiftUI */,
 				5707041428BBAAEC0007314B /* sweet_swiftUIApp.swift */,
 				5707041628BBAAEC0007314B /* ContentView.swift */,
@@ -142,6 +145,22 @@
 				5707044428BBACBA0007314B /* ReadMe.md */,
 			);
 			path = hello_swiftUI;
+			sourceTree = "<group>";
+		};
+		5707044628BBB0AA0007314B /* components_of_ths_view */ = {
+			isa = PBXGroup;
+			children = (
+				5707044728BBB0E00007314B /* image */,
+			);
+			path = components_of_ths_view;
+			sourceTree = "<group>";
+		};
+		5707044728BBB0E00007314B /* image */ = {
+			isa = PBXGroup;
+			children = (
+				5707044828BBB1680007314B /* ImageComponent.swift */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +297,7 @@
 				5707042128BBAAEE0007314B /* sweet_swiftUI.xcdatamodeld in Sources */,
 				5707041E28BBAAEE0007314B /* Persistence.swift in Sources */,
 				5707041728BBAAEC0007314B /* ContentView.swift in Sources */,
+				5707044928BBB1680007314B /* ImageComponent.swift in Sources */,
 				5707041528BBAAEC0007314B /* sweet_swiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
